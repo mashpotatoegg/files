@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+h2 {
+    text-align: center;
+}
+
+header{
+    width:960px;
+    margin: 0 auto;
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    gap: 50px;
+}
+
+header ul li{
+    list-style: none;
+  /*  margin-right:30px;*/
+}
+
+/*
+header ul li:last-child{
+    margin-right: 0;
+}
+*/
+
+header ul li img{
+    width: 25px;
+    height: 25px;
+}
+
+.keyvisual img{
+    height: 420px; 
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+
+.widthfix{
+    width:960px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+
+.workimage{
+    display: flex;
+    flex-wrap: wrap;
+    gap:22px;
+    justify-content: center;
+    
+}
+
+
+.workimage img{
+    width: 31%;
+    height: auto;
+    /*margin-bottom: 20px;
+    */
+   
+}
+
+/*.news ul li{
+    list-style: none;
+}*/
+
+.news .days{
+    display: flex;
+    border-bottom: solid 1px #bfbfbf;
+   
+
+}
+
+.news .daystop{
+     border-top: solid 1px #bfbfbf;
+}
+
+/*.news .days p{
+    margin: 0;
+}*/
+
+.news .days .dayspadding{
+    padding-right: 100px;
+}
+
+
+/*
+input[type="text"],
+input[type="email"],
+textarea {
+    border: solid 1px #bfbfbf;
+    width:100%;
+    padding: 8px 10px;
+    
+}
+
+input[type="text"],
+input[type="email"]{
+    height: 20px;
+    font-size: 17px;
+    -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+textarea{
+    height: 150px;
+    font-size: 17px;
+    
+}
+
+form > p{
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    padding: 16px 100px;
+    font-size: 16px;
+    background-color:black;
+    color: #fff;
+}
+
+
+.formflex {
+  position: relative;
+}
+
+.formflex p label{
+    position: absolute;
+}
+
+.formflex p input{
+    margin-left: 5em;
+}
+*/
+
+dl dt{
+    float: left;
+    padding-right: 1em;
+    
+    
+}
+
+dl dd {
+    /*margin: 0;*/
+   
+    padding-left: 3em;
+}
+
+input{
+    font-size: 1em;
+    padding: 5px 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-family:  "メイリオ", Meiryo, serif, "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN";
+}
+
+textarea{
+    font-size: 1em;
+    padding: 5px 8px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family:  "メイリオ", Meiryo, serif, "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN";
+    letter-spacing: .05em;
+    
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    /*text-align: center;*/
+    padding: 10px 100px;
+    font-size: 17px;
+    
+    color:#3c3c3c;
+    background-color: #fff;
+    border: 1px solid #3c3c3c;
+   transition: all  0.4s ease;
+}
+
+button:hover{
+  background-color: #3c3c3c;
+    color: #fff;  
+    border: 1px solid #3c3c3c;
+    
+}
+
+
+@media (max-width: 600px){
+   .keyvisual .pc_visual{
+        display: none;
+    }
+    
+    
+}
+
+
+@media (min-width: 600px){
+   .keyvisual .sp_visual{
+        display: none;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
