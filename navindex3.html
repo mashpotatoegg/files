@@ -1,0 +1,85 @@
+<html lang="ja">
+    <head>
+<meta charset="utf-8">
+<title>nav3</title>
+<link rel="stylesheet" href="navstyle3.css">
+    
+    </head>
+
+    <body>
+    <div class="headmenu">
+    <div class="humb">
+    <div class="one"></div>
+     <div class="two"></div> 
+      <div class="three"></div> 
+        </div>    
+        
+        
+<nav>
+<ul class="menu">
+    <li><a>メニュー１</a></li>
+    <li><a>メニュー２</a></li>
+    <li><a>メニュー３</a></li>
+    <li><a>メニュー４</a></li>
+    
+    
+    </ul>        
+        
+        </nav>
+        
+        </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          crossorigin="anonymous"></script>  
+    <!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>   -->       
+        
+        
+  <script>
+    $(".humb").on("click" , function(){
+    $(this).toggleClass("on");
+    /*$(".headmenu").toggleClass("on");
+    $(".headmenu nav ul").toggleClass("menu");*/
+        
+    });    
+                
+        </script>
+        
+  <script>
+$(function(){
+$(".humb").on("click", function(){
+    $(".humb").toggleClass("close");
+    $("nav").fadeToggle(500);
+}) ;   
+});        
+      </script>      
+ 
+ 
+    
+<!--<script>
+$(document).ready(function(){
+    $(".humb").on("click" , function(){
+        $("nav").toggle(0);
+    });
+    
+});     
+             </script>-->
+
+<!-- <script>
+$(".humb").on("click" , function(){
+    $(".headmenu nav").show();
+});        
+        
+        </script>       
+        -->
+        
+ 
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    </body>
